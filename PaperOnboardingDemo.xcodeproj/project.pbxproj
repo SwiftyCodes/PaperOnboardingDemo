@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DD963405F4621F5ED9AA62C /* Pods_PaperOnboardingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71D8FB8C63B5EF405798A27 /* Pods_PaperOnboardingDemo.framework */; };
 		8433ACD4203EC4DF00B55BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433ACD3203EC4DF00B55BE0 /* AppDelegate.swift */; };
 		8433ACD6203EC4DF00B55BE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433ACD5203EC4DF00B55BE0 /* ViewController.swift */; };
 		8433ACD9203EC4DF00B55BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8433ACD7203EC4DF00B55BE0 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		8433ACDE203EC4DF00B55BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8433ACDC203EC4DF00B55BE0 /* LaunchScreen.storyboard */; };
 		8433ACE9203EC4E200B55BE0 /* PaperOnboardingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433ACE8203EC4E200B55BE0 /* PaperOnboardingDemoTests.swift */; };
 		8433ACF4203EC4E200B55BE0 /* PaperOnboardingDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433ACF3203EC4E200B55BE0 /* PaperOnboardingDemoUITests.swift */; };
+		8433AD02203EC50000B55BE0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8433AD01203EC50000B55BE0 /* Podfile */; };
+		8433AD07203F2D0F00B55BE0 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8433AD03203F2D0E00B55BE0 /* Nunito-Light.ttf */; };
+		8433AD08203F2D0F00B55BE0 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8433AD04203F2D0E00B55BE0 /* Nunito-Bold.ttf */; };
+		8433AD09203F2D0F00B55BE0 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8433AD05203F2D0F00B55BE0 /* Nunito-Regular.ttf */; };
+		8433AD0A203F2D0F00B55BE0 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8433AD06203F2D0F00B55BE0 /* OpenSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C243B928EDD32EEFEEA1E63 /* Pods-PaperOnboardingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaperOnboardingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaperOnboardingDemo/Pods-PaperOnboardingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		71A94AB8C5F01E899BD32AE3 /* Pods-PaperOnboardingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaperOnboardingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaperOnboardingDemo/Pods-PaperOnboardingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8433ACD0203EC4DF00B55BE0 /* PaperOnboardingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperOnboardingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8433ACD3203EC4DF00B55BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8433ACD5203EC4DF00B55BE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		8433ACEF203EC4E200B55BE0 /* PaperOnboardingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperOnboardingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8433ACF3203EC4E200B55BE0 /* PaperOnboardingDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperOnboardingDemoUITests.swift; sourceTree = "<group>"; };
 		8433ACF5203EC4E200B55BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8433AD01203EC50000B55BE0 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		8433AD03203F2D0E00B55BE0 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		8433AD04203F2D0E00B55BE0 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		8433AD05203F2D0F00B55BE0 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		8433AD06203F2D0F00B55BE0 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		C71D8FB8C63B5EF405798A27 /* Pods_PaperOnboardingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaperOnboardingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD963405F4621F5ED9AA62C /* Pods_PaperOnboardingDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +89,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2380D34246FEB5FBBC1B9EE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71A94AB8C5F01E899BD32AE3 /* Pods-PaperOnboardingDemo.debug.xcconfig */,
+				1C243B928EDD32EEFEEA1E63 /* Pods-PaperOnboardingDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8433ACC7203EC4DE00B55BE0 = {
 			isa = PBXGroup;
 			children = (
+				8433AD01203EC50000B55BE0 /* Podfile */,
 				8433ACD2203EC4DF00B55BE0 /* PaperOnboardingDemo */,
 				8433ACE7203EC4E200B55BE0 /* PaperOnboardingDemoTests */,
 				8433ACF2203EC4E200B55BE0 /* PaperOnboardingDemoUITests */,
 				8433ACD1203EC4DF00B55BE0 /* Products */,
+				2380D34246FEB5FBBC1B9EE3 /* Pods */,
+				D43AA968006AEB14BF4822A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +124,10 @@
 		8433ACD2203EC4DF00B55BE0 /* PaperOnboardingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8433AD04203F2D0E00B55BE0 /* Nunito-Bold.ttf */,
+				8433AD03203F2D0E00B55BE0 /* Nunito-Light.ttf */,
+				8433AD05203F2D0F00B55BE0 /* Nunito-Regular.ttf */,
+				8433AD06203F2D0F00B55BE0 /* OpenSans-Regular.ttf */,
 				8433ACD3203EC4DF00B55BE0 /* AppDelegate.swift */,
 				8433ACD5203EC4DF00B55BE0 /* ViewController.swift */,
 				8433ACD7203EC4DF00B55BE0 /* Main.storyboard */,
@@ -125,6 +156,14 @@
 			path = PaperOnboardingDemoUITests;
 			sourceTree = "<group>";
 		};
+		D43AA968006AEB14BF4822A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C71D8FB8C63B5EF405798A27 /* Pods_PaperOnboardingDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8433ACF8203EC4E200B55BE0 /* Build configuration list for PBXNativeTarget "PaperOnboardingDemo" */;
 			buildPhases = (
+				AF8DDAF2F584B0747095DE33 /* [CP] Check Pods Manifest.lock */,
 				8433ACCC203EC4DF00B55BE0 /* Sources */,
 				8433ACCD203EC4DF00B55BE0 /* Frameworks */,
 				8433ACCE203EC4DF00B55BE0 /* Resources */,
+				B10698BC3A01BBA3D5A93EB8 /* [CP] Embed Pods Frameworks */,
+				9D5F62399006ABCDE42906D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,7 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8433ACDE203EC4DF00B55BE0 /* LaunchScreen.storyboard in Resources */,
+				8433AD07203F2D0F00B55BE0 /* Nunito-Light.ttf in Resources */,
 				8433ACDB203EC4DF00B55BE0 /* Assets.xcassets in Resources */,
+				8433AD02203EC50000B55BE0 /* Podfile in Resources */,
+				8433AD09203F2D0F00B55BE0 /* Nunito-Regular.ttf in Resources */,
+				8433AD08203F2D0F00B55BE0 /* Nunito-Bold.ttf in Resources */,
+				8433AD0A203F2D0F00B55BE0 /* OpenSans-Regular.ttf in Resources */,
 				8433ACD9203EC4DF00B55BE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +300,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D5F62399006ABCDE42906D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaperOnboardingDemo/Pods-PaperOnboardingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF8DDAF2F584B0747095DE33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaperOnboardingDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B10698BC3A01BBA3D5A93EB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PaperOnboardingDemo/Pods-PaperOnboardingDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaperOnboardingDemo/Pods-PaperOnboardingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8433ACCC203EC4DF00B55BE0 /* Sources */ = {
@@ -424,6 +525,7 @@
 		};
 		8433ACF9203EC4E200B55BE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A94AB8C5F01E899BD32AE3 /* Pods-PaperOnboardingDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +541,7 @@
 		};
 		8433ACFA203EC4E200B55BE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C243B928EDD32EEFEEA1E63 /* Pods-PaperOnboardingDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
