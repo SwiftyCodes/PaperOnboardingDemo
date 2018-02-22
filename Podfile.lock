@@ -1,0 +1,12 @@
+PODS:
+  - paper-onboarding (4.0.0)
+
+DEPENDENCIES:
+  - paper-onboarding
+
+SPEC CHECKSUMS:
+  paper-onboarding: f920d5dc86b439dea5fbe5e59cc5ec9cc1a904a4
+
+PODFILE CHECKSUM: 24d24972f806dcb45b8619065bc787d1026f6adb
+
+COCOAPODS: 1.4.0
